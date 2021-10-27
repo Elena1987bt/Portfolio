@@ -1,0 +1,46 @@
+.container {
+  height: 50px;
+}
+.wrapper {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper-left {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: bold;
+}
+.logo span {
+  color: crimson;
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menuItem {
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+.menuItem:hover {
+  color: black;
+  transition: color 2s ease;
+}
+.button {
+  border: 2px solid white;
+  padding: 10px 15px;
+  background-color: #f88497;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
