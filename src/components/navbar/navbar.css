@@ -44,3 +44,13 @@
   border-radius: 10px;
   cursor: pointer;
 }
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+@media only screen and (max-width: 480px) {
+  .menu,
+  button {
+    display: none;
+  }
+}

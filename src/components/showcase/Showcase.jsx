@@ -5,7 +5,7 @@ import './showcase.css';
 
 const Showcase = () => {
   return (
-    <div className="showcase">
+    <div className="showcase" id="showcase">
       <Navbar />
       <Intro />
       <div className="showcase-shape"></div>

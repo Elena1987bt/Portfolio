@@ -10,10 +10,26 @@ const Navbar = () => {
             &lt; <span>/</span>&gt;
           </h1>
           <ul className="menu">
-            <li className="menuItem">Home</li>
-            <li className="menuItem">About</li>
-            <li className="menuItem">Projects</li>
-            <li className="menuItem">Contact</li>
+            <li className="menuItem">
+              <a href="#showcase" className="link">
+                Home
+              </a>
+            </li>
+            <li className="menuItem">
+              <a href="#about" className="link">
+                About
+              </a>
+            </li>
+            <li className="menuItem">
+              <a href="#productList" className="link">
+                Projects
+              </a>
+            </li>
+            <li className="menuItem">
+              <a href="#contact" className="link">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
         <div className="wrapper-right">
