@@ -46,7 +46,9 @@
   .productList-wrapper {
     padding: 10px;
   }
-
+  .productList-title {
+    font-size: 30px;
+  }
   .productList-texts {
     width: 100%;
   }

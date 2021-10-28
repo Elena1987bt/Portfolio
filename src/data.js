@@ -62,7 +62,7 @@ export const products = [
   {
     id: 9,
     img: 'https://github.com/Elena1987bt/MY-HOBBY-PROJECTS/blob/main/CV/images/img-1-thenextweb.jpg?raw=true',
-    link: '"https://elena1987bt.github.io/FOO-CODING/Html-Css-Module/week-3/index.html',
+    link: 'https://elena1987bt.github.io/FOO-CODING/Html-Css-Module/week-3/index.html',
     title: 'The next web clone landing page',
     technologies: 'HTML, CSS, JavaScript',
   },
