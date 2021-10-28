@@ -47,7 +47,9 @@
     padding: 10px;
   }
   .productList-title {
-    font-size: 30px;
+    font-size: 25px;
+    width: 60%;
+    margin: 0 auto;
   }
   .productList-texts {
     width: 100%;

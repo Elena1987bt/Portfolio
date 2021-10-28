@@ -26,3 +26,9 @@
   position: absolute;
   cursor: pointer;
 }
+@media only screen and (max-width: 375px) {
+  .toggle {
+    top: 40px;
+    right: 20px;
+  }
+}

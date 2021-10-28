@@ -1,5 +1,5 @@
 .about {
-  height: 100vh;
+  height: auto;
   overflow: hidden;
   position: relative;
 }
@@ -67,7 +67,7 @@
   margin-right: 30px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   .about-container {
     flex-direction: column;
     text-align: center;
@@ -88,5 +88,8 @@
 
   .about-right {
     padding: 20px;
+  }
+  .about-container {
+    height: auto;
   }
 }
