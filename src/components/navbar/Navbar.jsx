@@ -8,7 +8,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className="navbar">
       <div onClick={() => setMenuOpen(!menuOpen)} className="menuIcon">
-        <MenuIcon />
+        <MenuIcon style={{ fontSize: 40 }} />
       </div>
     </div>
   );
