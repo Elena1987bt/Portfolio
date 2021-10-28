@@ -4,13 +4,6 @@
   position: relative;
 }
 
-.contact-bg {
-  width: 20px;
-  height: 100%;
-  background-color: #f88497;
-  position: absolute;
-}
-
 .contact-wrapper {
   padding: 50px;
   display: flex;
@@ -88,6 +81,10 @@ button {
 }
 
 @media screen and (max-width: 480px) {
+  .contact {
+    padding-top: 20px;
+    height: auto;
+  }
   .contact-wrapper {
     flex-direction: column;
     padding: 0px 50px;
@@ -123,6 +120,8 @@ button {
   }
 
   button {
-    margin-top: 10px;
+    margin: 10px 0 20px;
+    width: 100%;
+    display: block;
   }
 }

@@ -32,11 +32,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="wrapper-right">
-          <button type="button" className="button">
-            Join now
-          </button>
-        </div>
+        <div className="wrapper-right"></div>
       </div>
     </div>
   );

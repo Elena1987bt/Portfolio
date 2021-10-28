@@ -4,15 +4,15 @@ import Email from '../../img/email.png';
 import Address from '../../img/address.png';
 import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedIn.png';
-import { useContext, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 //import emailjs from 'emailjs-com';
-// import { ThemeContext } from '../../context';
+import { useThemeContext } from '../../context';
 
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false);
-  //  const theme = useContext(ThemeContext);
-  // const darkMode = theme.state.darkMode;
+  const { state } = useThemeContext();
+  const darkMode = state.darkMode;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -35,8 +35,15 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
-      <div className="contact-bg"></div>
+    <div
+      className="contact"
+      id="contact"
+      style={{
+        background:
+          darkMode &&
+          "url('https://ak.picdn.net/shutterstock/videos/1024770461/thumb/11.jpg')",
+      }}
+    >
       <div className="contact-wrapper">
         <div className="contact-left">
           <h1 className="contact-title">Contact me</h1>
@@ -80,25 +87,25 @@ const Contact = () => {
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
-              //   style={{ backgroundColor: darkMode && '#333' }}
+              style={{ backgroundColor: darkMode && '#333' }}
               type="text"
               placeholder="Name"
               name="user_name"
             />
             <input
-              //   style={{ backgroundColor: darkMode && '#333' }}
+              style={{ backgroundColor: darkMode && '#333' }}
               type="text"
               placeholder="Subject"
               name="user_subject"
             />
             <input
-              //   style={{ backgroundColor: darkMode && '#333' }}
+              style={{ backgroundColor: darkMode && '#333' }}
               type="text"
               placeholder="Email"
               name="user_email"
             />
             <textarea
-              //   style={{ backgroundColor: darkMode && '#333' }}
+              style={{ backgroundColor: darkMode && '#333' }}
               rows="5"
               placeholder="Message"
               name="message"
