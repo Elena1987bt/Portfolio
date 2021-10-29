@@ -21,9 +21,6 @@ const Form = () => {
   const emailRef = useRef();
   const nameRef = useRef();
   const messageRef = useRef();
-  useEffect(() => {
-    nameRef.current.focus();
-  }, []);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -41,7 +38,7 @@ const Form = () => {
       [name]: value,
     }));
   };
-  console.log(formState);
+
   const validateInput = () => {
     const fields = [
       {
@@ -80,6 +77,10 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!formState.user_name && !formState.user_email && !formState.message) {
+      setErrorMsg('Please fill out all the fields!');
+      return;
+    }
     const isInvalid = validateInput();
     if (!isInvalid) {
       setSuccessMsg("You're good to go!");
