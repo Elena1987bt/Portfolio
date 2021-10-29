@@ -18,14 +18,14 @@ const About = () => {
             Macedonia. I am 34 years old. I am married and I have two children.
           </p>
           <p className="about-sub">
-            I have been graduated on a faculty of law. I also have master of
+            I have graduated at the faculty of law. I also have master of
             political science degree.
           </p>
           <p className="about-desc">
             I switched my carrier in web development because I find it very
             interesting and fun. I took the six-month full stack web development
             course in FOO CODING - Malmö, Sweden. I also took some Udemy courses
-            to improve and sharp my skills in web development. I don't have
+            to improve and straighten my skills in web development. I don't have
             experience in a software development company, but I do have
             experience in coding by doing some projects by myself.
           </p>

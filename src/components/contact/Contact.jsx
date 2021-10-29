@@ -27,7 +27,7 @@ const Contact = () => {
           <div className="contact-info">
             <div className="contact-info-item">
               <img src={Phone} alt="" className="contact-icon" />
-              076 052 5504
+              076 052 5506
             </div>
             <div className="contact-info-item">
               <img className="contact-icon" src={Email} alt="" />
