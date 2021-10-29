@@ -20,6 +20,7 @@
   position: absolute;
   top: 5%;
   right: 10%;
+  cursor: pointer;
 }
 .menuIcon {
   font-size: 50px !important;
