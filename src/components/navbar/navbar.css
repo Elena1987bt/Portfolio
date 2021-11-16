@@ -6,7 +6,7 @@
   left: 20px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
   .menuIcon {
     top: 20px;
     left: 25px;

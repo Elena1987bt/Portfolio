@@ -13,3 +13,8 @@
   clip-path: polygon(67% 0, 100% 0%, 100% 100%, 55% 100%);
   background-color: #f88497;
 }
+@media screen and (max-width: 480px) {
+  .showcase {
+    /* height: 100%; */
+  }
+}

@@ -37,7 +37,7 @@ button {
   cursor: pointer;
   margin-right: 10px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   form {
     margin-top: 0px;
     display: flex;
